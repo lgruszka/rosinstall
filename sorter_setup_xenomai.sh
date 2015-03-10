@@ -5,7 +5,7 @@ export LANGUAGE=en
 export OROCOS_TARGET=xenomai
 export XENOMAI_ROOT_DIR=/opt/xenomai_sorter
 
-wget https://raw.githubusercontent.com/RCPRG-ros-pkg/RCPRG_rosinstall/master/sorter.rosinstall -O /tmp/sorter.rosinstall
+wget https://raw.githubusercontent.com/SorterEU/rosinstall/master/sorter.rosinstall -O /tmp/sorter.rosinstall
 
 if [ ! -d $1 ]; then
   mkdir $1
