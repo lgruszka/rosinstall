@@ -2,8 +2,7 @@
 
 export LANG=en_US.UTF-8
 export LANGUAGE=en
-export OROCOS_TARGET=xenomai
-export XENOMAI_ROOT_DIR=/opt/xenomai_sorter
+export OROCOS_TARGET=gnulinux
 
 wget https://raw.githubusercontent.com/SorterEU/rosinstall/master/sorter.rosinstall -O /tmp/sorter.rosinstall
 
