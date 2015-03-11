@@ -13,7 +13,7 @@ fi
 
 cd $1
 wstool init
-wstool merge /tmp/sorter_xenomain.rosinstall
+wstool merge /tmp/sorter_xenomai.rosinstall
 wstool update
 cd underlay_isolated
 catkin_make_isolated --install -DENABLE_CORBA=ON -DCORBA_IMPLEMENTATION=OMNIORB -DCMAKE_BUILD_TYPE=RelWithDebInfo
