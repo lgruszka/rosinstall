@@ -4,7 +4,7 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en
 export OROCOS_TARGET=gnulinux
 
-get https://raw.githubusercontent.com/SorterEU/rosinstall/master/sorter_gnulinux.rosinstall -O /tmp/sorter_gnulinux.rosinstall
+wget https://raw.githubusercontent.com/SorterEU/rosinstall/master/sorter_gnulinux.rosinstall -O /tmp/sorter_gnulinux.rosinstall
 
 if [ ! -d $1 ]; then
   mkdir $1
